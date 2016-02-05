@@ -26,3 +26,37 @@
     background-color: darken(#d9534f, 20%) !important;
   }
 }
+body {
+  background-image: asset-url('stocks.jpeg');
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+footer {
+  color: #fff;
+}
+
+
+#stock-table, #friends-table {
+  background-color: #fff;
+  border-radius: 5px;
+}
+#stock-lookup {
+  color: #fff;
+}
+#friend-lookup h3 {
+  color: #fff;
+}
+#ticker-search, #friends-search {
+  padding-top: 10px;
+}
+#account-cancel {
+  color: #fff;
+}
+#account-cancel a {
+  color: #fff;
+}
+.lead {
+  color: #fff;
+}
